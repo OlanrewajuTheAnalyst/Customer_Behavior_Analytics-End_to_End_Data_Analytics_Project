@@ -41,7 +41,7 @@ Used:
 ## Power BI Dashboard
 ![Dashboard Screenshot](https://github.com/OlanrewajuTheAnalyst/Customer_Trends_Behavior_Analysis/blob/main/customer_behavior.png)
 
-KPIs:
+## KPIs:
 - 3.9K Customers
 - $59.76 Average Purchase
 - 3.75 Average Rating
