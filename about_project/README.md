@@ -299,28 +299,25 @@ The final dashboard was designed to provide a concise view of customer behavior 
 ### Dashboard KPIs
 The dashboard highlights:
 
-```sql
 3.9K Customers
 $59.76 Average Purchase Amount
 3.75 Average Review Rating
 Dashboard Visualizations
 
 The report includes:
-Subscription Status donut chart
-Revenue by Category
-Sales by Category
-Revenue by Age Group
-Sales by Age Group
-Customer filtering by:
-Subscription Status
-Gender
-Category
-Shipping Type
-Dashboard Design
+-        Subscription Status donut chart
+-        Revenue by Category
+-        Sales by Category
+-        Revenue by Age Group
+-        Sales by Age Group
+-        Customer filtering by:
+-        Subscription Status
+-        Gender
+-        Category
+-        Shipping Type
+-        Dashboard Design
 The dashboard provides interactive filtering so users can drill down into customer behavior based on different dimensions.
-```
-                 
-                 ```sql
+
                  CUSTOMER BEHAVIOR DASHBOARD
  ┌───────────────────────────────────────────────────┐
  │ Customers │ Avg Purchase │ Avg Review Rating      │
@@ -329,131 +326,48 @@ The dashboard provides interactive filtering so users can drill down into custom
  ├───────────────────────────────────────────────────┤
  │ Revenue by Age Group │ Sales by Age Group         │
  └───────────────────────────────────────────────────┘
-```
+
 
 ### 9. Business Insights
 The analysis can be used to answer questions such as:
-
-Which customer groups generate the most revenue?
-Do subscribers spend more than non-subscribers?
-Which product categories generate the highest revenue?
-Which products receive the highest ratings?
-Which products are most frequently purchased with discounts?
-How does spending vary across age groups?
-Which shipping methods are associated with higher average purchases?
-Are repeat customers more likely to subscribe?
-Which products are the top sellers within each category?
+-        Which customer groups generate the most revenue?
+-        Do subscribers spend more than non-subscribers?
+-        Which product categories generate the highest revenue?
+-        Which products receive the highest ratings?
+-        Which products are most frequently purchased with discounts?
+-        How does spending vary across age groups?
+-        Which shipping methods are associated with higher average purchases?
+-        Are repeat customers more likely to subscribe?
+-        Which products are the top sellers within each category?
 These insights provide a foundation for decisions around customer retention, subscription strategy, promotions, product management, and marketing.
 
-Results
+### Results
 The completed project delivers a full analytics workflow:
+-        Data Engineering
+-        Imported raw CSV data
+-        Investigated data quality
+-        Handled missing values
+-        Standardized column names
+-        Removed redundant columns
+-        Created analytical features
+-        Data Analysis
+-        Performed exploratory data analysis in Python
+-        Created customer segments
+-        Analyzed purchasing frequency
+-        Investigated customer and product behavior
+-        SQL Analytics
+-        Loaded cleaned data into PostgreSQL
+-        Created business-focused SQL queries
+-        Used aggregations, subqueries, CTEs and window functions
+-        Business Intelligence
+-        Connected PostgreSQL data to Power BI
+-        Created DAX measures
+-        Built an interactive dashboard
+-        Presented customer and sales KPIs
+-        Reporting
+-        Converted analytical findings into business-oriented insights and recommendations.
 
-Data Engineering
-Imported raw CSV data
-Investigated data quality
-Handled missing values
-Standardized column names
-Removed redundant columns
-Created analytical features
-Data Analysis
-Performed exploratory data analysis in Python
-Created customer segments
-Analyzed purchasing frequency
-Investigated customer and product behavior
-SQL Analytics
-Loaded cleaned data into PostgreSQL
-Created business-focused SQL queries
-Used aggregations, subqueries, CTEs and window functions
-Business Intelligence
-Connected PostgreSQL data to Power BI
-Created DAX measures
-Built an interactive dashboard
-Presented customer and sales KPIs
-Reporting
-Converted analytical findings into business-oriented insights and recommendations.
-Project Structure
-A recommended GitHub repository structure:
-
-customer-behavior-analytics/
-│
-├── data/
-│   └── customer_behavior.csv
-│
-├── notebooks/
-│   └── customer_behavior_analysis.ipynb
-│
-├── sql/
-│   └── customer_behavior_queries.sql
-│
-├── powerbi/
-│   └── customer_behavior_dashboard.pbix
-│
-├── reports/
-│   └── customer_behavior_report.pdf
-│
-├── screenshots/
-│   └── dashboard.png
-│
-├── requirements.txt
-│
-└── README.md
-
-How to Run
-Step 1 — Clone the Repository
-git clone <repository-url>
-cd customer-behavior-analytics
-
-Step 2 — Install Python Dependencies
-pip install pandas numpy sqlalchemy psycopg2-binary jupyter
-
-Step 3 — Run the Jupyter Notebook
-Open:
-
-notebooks/customer_behavior_analysis.ipynb
-
-Run the notebook to:
-
-Load the raw dataset
-Perform EDA
-Clean the data
-Create new features
-Connect to PostgreSQL
-Load the final dataset
-Step 4 — Configure PostgreSQL
-Create a PostgreSQL database named:
-
-customer_behavior
-
-Update the database credentials in the Python connection code:
-
-username = "postgres"
-password = "YOUR_PASSWORD"
-host = "localhost"
-port = "5432"
-database = "customer_behavior"
-
-Then run the data-loading section of the notebook.
-
-Step 5 — Run SQL Queries
-Open pgAdmin 4, select the customer_behavior database and execute:
-
-sql/customer_behavior_queries.sql
-
-Step 6 — Open Power BI
-Open:
-
-powerbi/customer_behavior_dashboard.pbix
-
-Connect/refresh the PostgreSQL data source if required.
-
-The dashboard can then be used to interactively analyze customer behavior.
-
-Step 7 — Review the Report
-The final business report is available in:
-
-reports/customer_behavior_report.pdf
-
-End-to-End Architecture
+### End-to-End Architecture
                     ┌──────────────────┐
                     │   CSV Dataset     │
                     └────────┬─────────┘
@@ -506,4 +420,4 @@ Python • Pandas • NumPy • Exploratory Data Analysis • Data Cleaning • 
 Conclusion
 This project demonstrates a complete end-to-end data analytics workflow, connecting data preparation, database management, SQL analysis, business intelligence, visualization, and reporting into a single pipeline.
 
-It showcases the ability to take a raw dataset and transform it into actionable business insights using Python, PostgreSQL, SQL, and Power BI.
+It showcases the ability to take a raw dataset and transform it into actionable business insights using Python, PostgreSQL and Power BI.
