@@ -1,1 +1,66 @@
-# Customer_Trends_Behavior_Analysis
+# Customer_Behavior_Analytics — End-to-End Data Analytics Project
+
+## Overview
+This project is an end-to-end data analytics pipeline built to analyze customer purchasing behavior, spending patterns, product performance, discounts, subscriptions, and demographics.
+
+The project demonstrates the complete analytics workflow — from raw CSV data preparation in Python to SQL analysis in PostgreSQL, DAX calculations in Power BI, and the development of an interactive Power BI dashboard and analytical report.
+
+## Business Questions
+- Revenue by gender
+- Subscriber vs non-subscriber spending
+- Top-rated products
+- Discount behavior
+- Customer segmentation
+- Revenue by age group
+
+## Tools
+Python | Pandas | PostgreSQL | SQL | pgAdmin 4 | Power BI | DAX
+
+## End-to-End Pipeline
+CSV → Python/EDA → Data Cleaning → PostgreSQL → SQL Analysis → Power BI/DAX → Dashboard → Report
+
+## Data Preparation
+- Handled missing review ratings
+- Standardized column names
+- Created age groups
+- Created purchase frequency in days
+- Removed redundant columns
+
+## SQL Analysis
+Used:
+- Aggregations
+- Subqueries
+- CTEs
+- CASE statements
+- Window functions
+
+## Power BI Dashboard
+[Dashboard Screenshot]
+
+KPIs:
+- 3.9K Customers
+- $59.76 Average Purchase
+- 3.75 Average Rating
+
+## Key Insights
+- Revenue performance by category and age group
+- Subscription and spending behavior
+- Product ratings and discount trends
+- Customer loyalty patterns
+
+## How to Run
+1. Run the Jupyter Notebook
+2. Configure PostgreSQL
+3. Execute SQL queries in pgAdmin 4
+4. Open/refresh the Power BI file
+5. Review the final report
+
+## Project Structure
+data/
+notebooks/
+sql/
+powerbi/
+reports/
+
+## Skills
+Python • SQL • PostgreSQL • Power BI • DAX • EDA • Data Cleaning • Data Visualization
