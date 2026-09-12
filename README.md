@@ -39,7 +39,7 @@ Used:
 - Window functions
 
 ## Power BI Dashboard
-![Dashboard Screenshot]()
+![Dashboard Screenshot](https://github.com/OlanrewajuTheAnalyst/Customer_Trends_Behavior_Analysis/blob/main/customer_behavior.png)
 
 KPIs:
 - 3.9K Customers
