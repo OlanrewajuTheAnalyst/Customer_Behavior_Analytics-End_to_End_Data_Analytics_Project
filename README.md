@@ -53,7 +53,7 @@ powerbi/
 reports/
 
 ## 🛠️ Tools & Skills
-Python • PostgreSQL • SQL • Power BI • DAX • EDA • Data Cleaning • Data Visualization
+Python • PostgreSQL • SQL • Power BI • DAX • EDA • Data Cleaning • Data Visualization/
 **SQL techniques include:** CTEs, subqueries, aggregations, CASE statements, and window functions.
 
 ## End-to-End Pipeline
